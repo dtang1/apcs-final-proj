@@ -1,0 +1,20 @@
+*  Wolfram|Alpha
+
+Derek Tang, Jian Huang, William Xiao
+
+*********************************************************************
+
+The Alpha Wolves focused on mimicking Wolfram Alpha's ability to look 
+at and evaluate a single line of text supplied by the user. Our project 
+takes the inputed text and turns it into a string. This string is then 
+evaluated and is delegated to another class. An appropriate answer is 
+then returned. This process takes into account the various ways an 
+expression can be expressed. Keep in mind, this project evaluates only 
+mathematical expressions and will return "Invalid Input" if no 
+operations can be performed. 
+
+Functions Include:
+Arithmetic Operaitons following PEMDAS
+Finding the roots of a polynomial
+Graphing polynomials
+Solving linear equations
